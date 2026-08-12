@@ -1,0 +1,12 @@
+aiogram==3.30.0
+SQLAlchemy>=2.0
+asyncpg
+aiosqlite
+aiohttp
+pydantic-settings
+apscheduler
+qrcode[pil]
+Pillow
+python-dotenv
+tenacity
+greenlet

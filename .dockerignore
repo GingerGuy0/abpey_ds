@@ -1,0 +1,18 @@
+# В образ їде тільки те, що потрібно для запуску бота.
+.git
+.gitignore
+__pycache__
+*.pyc
+.pytest_cache
+.env
+.env.example
+.venv
+venv
+*.db
+.idea
+.vscode
+.DS_Store
+tests
+scripts
+docker-compose.yml
+*.md

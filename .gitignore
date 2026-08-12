@@ -1,0 +1,46 @@
+# --- Секрети й дані. Ніколи не комітити ---
+.env
+.env.bak
+# bot.db містить реальні підписки користувачів
+*.db
+*.sqlite3
+
+# --- Оточення ---
+.venv/
+venv/
+venv.bak/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# --- Тести й інструменти ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE та ОС ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Логи ---
+*.log
