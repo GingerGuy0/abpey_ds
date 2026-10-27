@@ -152,7 +152,7 @@ async def handle_get_link(message: Message, session: AsyncSession, user: User, b
 @router.message(Command("help", "support"))
 async def handle_support(message: Message):
     try:
-        await message.answer("Зв'язок з підтримкою: @dimasshilit")
+        await message.answer("Зв'язок з підтримкою: @d")
     except Exception as e:
         logging.error(f"Error in support: {e}", exc_info=True)
         await message.answer(t("error_generic"))
